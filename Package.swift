@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "Leaf", targets: ["Leaf"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SmartJSONEditor/leaf-kit.git", branch "main"),
+        .package(url: "https://github.com/SmartJSONEditor/leaf-kit.git", branch:"main"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
